@@ -1,0 +1,104 @@
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .input_section {
+    margin-bottom: 20px;
+  }
+  
+  .input_section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input_section label {
+    margin-bottom: 5px;
+  }
+  
+  .input_section input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .input_section button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .display {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .d_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .d_left {
+    flex-grow: 1;
+  }
+  
+  .d_right {
+    display: flex;
+  }
+  
+  .btn-edit,
+  .btn-delete {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-form {
+    margin-top: 20px;
+  }
+  
+  .edit-form h3 {
+    margin-bottom: 10px;
+  }
+  
+  .edit-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-form label {
+    margin-bottom: 5px;
+  }
+  
+  .edit-form input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .edit-form button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-form button:last-child {
+    margin-left: 10px;
+    background-color: #dc3545;
+  }
+  
